@@ -1,0 +1,103 @@
+.block {
+    padding: 40px 0 10px;
+  }
+/* styles for the hero block */
+.hero-block {
+    width: 100%;
+    height: 50vh; /* set the height to 100 viewport height */
+    display: flex;
+    align-items: center;
+    background-color:black; 
+   margin: 10px 0 0;
+  }
+  
+  /* styles for the carousel */
+  .carousel {
+    width: 100%; /* adjust the width to your liking */
+    margin: 0 auto; /* center the carousel horizontally */
+  }
+  
+  .carousel-item {
+    height: 50vh; /* set the height to 100 viewport height */
+    background-color: rgba(0, 0, 0, 0.7); /* white background */
+    border-radius: 10px; /* add some rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* add some shadow */
+  }
+
+  .hero-block .carousel-item img {
+    width: 100%;
+  }
+
+  .carousel-caption {
+    bottom: 50%;
+    top: 25%;
+    left: 25%;
+    transform: translateY(50%);
+    -webkit-transform: translateY(50%);
+    color: #333; /* dark gray text */
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); /* add some text shadow */
+  }
+  
+  .carousel-caption h3 {
+    font-size: 24px; /* adjust the font size to your liking */
+    font-weight: bold; /* make the font bold */
+  }
+  
+  .carousel-caption p {
+    font-size: 18px; 
+    margin: 0 0 30px;
+  }
+  /* styles for the about block */
+.about-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0; /* add some padding top and bottom */
+  }
+  
+  /* styles for the title holder */
+  .title-holder {
+    text-align: center; /* center the title and subtitle */
+    margin-bottom: 0 0 40px; /* add some margin bottom */
+  }
+  
+  /* styles for the row */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* center the columns */
+  }
+  
+  /* styles for the columns */
+  .col-sm-6 {
+    flex: 0 0 50%; /* make the columns equal width */
+    max-width: 50%; /* set the max width to 50% */
+    padding: 20px; /* add some padding */
+  }
+  .about-block .progress-block {
+    margin: 0 0 25px;
+  }
+  
+  .about-block .progress-block h4 {
+    text-transform: uppercase;
+    margin: 0 0 5px;
+    font-size: 16px;
+  }
+  
+  .about-block .progress-bar {
+    background-color: #f64b4b;
+    -webkit-transition: width 0.3s linear;
+    transition: width 0.3s linear;
+  }
+  
+  /* styles for the image */
+  .image {
+    width: 40%; /* make the image 80% of the column width */
+    height: 40px; /* set the height to 150px */
+    border-radius: 10px; /* add some rounded corners */
+    margin: auto; /* center the image horizontally */
+  }
+  
+ 
+  
+ 
